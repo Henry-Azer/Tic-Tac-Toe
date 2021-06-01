@@ -7,16 +7,16 @@ namespace TicTacToe
 {
     public class Form1 : Form
     {
-        private Button _button1;
-        private Button _button2;
-        private Button _button3;
-        private Button _button4;
-        private Button _button5;
-        private Button _button6;
-        private Button _button7;
-        private Button _button8;
-        private Button _button9;
-        private Button _playButton;
+        private System.Windows.Forms.Button _button1;
+        private System.Windows.Forms.Button _button2;
+        private System.Windows.Forms.Button _button3;
+        private System.Windows.Forms.Button _button4;
+        private System.Windows.Forms.Button _button5;
+        private System.Windows.Forms.Button _button6;
+        private System.Windows.Forms.Button _button7;
+        private System.Windows.Forms.Button _button8;
+        private System.Windows.Forms.Button _button9;
+        private System.Windows.Forms.Button _playButton;
 
         private Button[] _buttonArray;
         private bool _isX;
@@ -43,29 +43,32 @@ namespace TicTacToe
         }
 
         #region Windows Form Designer generated code
-        
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
         private void InitializeComponent()
         {
-            this._button1 = new Button();
-            this._button2 = new Button();
-            this._button3 = new Button();
-            this._button4 = new Button();
-            this._button5 = new Button();
-            this._button6 = new Button();
-            this._button7 = new Button();
-            this._button8 = new Button();
-            this._button9 = new Button();
-            this._playButton = new Button();
-            this.eventShow = new Label();
+            this._button1 = new System.Windows.Forms.Button();
+            this._button2 = new System.Windows.Forms.Button();
+            this._button3 = new System.Windows.Forms.Button();
+            this._button4 = new System.Windows.Forms.Button();
+            this._button5 = new System.Windows.Forms.Button();
+            this._button6 = new System.Windows.Forms.Button();
+            this._button7 = new System.Windows.Forms.Button();
+            this._button8 = new System.Windows.Forms.Button();
+            this._button9 = new System.Windows.Forms.Button();
+            this._playButton = new System.Windows.Forms.Button();
+            this.eventShow = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // _button1
             // 
             this._button1.FlatAppearance.BorderSize = 0;
-            this._button1.FlatStyle = FlatStyle.Flat;
-            this._button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this._button1.Location = new System.Drawing.Point(37, 23);
+            this._button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this._button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this._button1.Location = new System.Drawing.Point(47, 29);
             this._button1.Name = "_button1";
             this._button1.Size = new System.Drawing.Size(70, 65);
             this._button1.TabIndex = 0;
@@ -73,10 +76,9 @@ namespace TicTacToe
             // _button2
             // 
             this._button2.FlatAppearance.BorderSize = 0;
-            this._button2.FlatStyle = FlatStyle.Flat;
-            this._button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this._button2.Location = new System.Drawing.Point(108, 23);
+            this._button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this._button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this._button2.Location = new System.Drawing.Point(118, 29);
             this._button2.Name = "_button2";
             this._button2.Size = new System.Drawing.Size(70, 65);
             this._button2.TabIndex = 1;
@@ -84,10 +86,9 @@ namespace TicTacToe
             // _button3
             // 
             this._button3.FlatAppearance.BorderSize = 0;
-            this._button3.FlatStyle = FlatStyle.Flat;
-            this._button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this._button3.Location = new System.Drawing.Point(179, 23);
+            this._button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this._button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this._button3.Location = new System.Drawing.Point(189, 29);
             this._button3.Name = "_button3";
             this._button3.Size = new System.Drawing.Size(70, 65);
             this._button3.TabIndex = 2;
@@ -95,10 +96,9 @@ namespace TicTacToe
             // _button4
             // 
             this._button4.FlatAppearance.BorderSize = 0;
-            this._button4.FlatStyle = FlatStyle.Flat;
-            this._button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this._button4.Location = new System.Drawing.Point(37, 89);
+            this._button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this._button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this._button4.Location = new System.Drawing.Point(47, 95);
             this._button4.Name = "_button4";
             this._button4.Size = new System.Drawing.Size(70, 65);
             this._button4.TabIndex = 3;
@@ -106,10 +106,9 @@ namespace TicTacToe
             // _button5
             // 
             this._button5.FlatAppearance.BorderSize = 0;
-            this._button5.FlatStyle = FlatStyle.Flat;
-            this._button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this._button5.Location = new System.Drawing.Point(108, 89);
+            this._button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this._button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this._button5.Location = new System.Drawing.Point(118, 95);
             this._button5.Name = "_button5";
             this._button5.Size = new System.Drawing.Size(70, 65);
             this._button5.TabIndex = 4;
@@ -117,10 +116,9 @@ namespace TicTacToe
             // _button6
             // 
             this._button6.FlatAppearance.BorderSize = 0;
-            this._button6.FlatStyle = FlatStyle.Flat;
-            this._button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this._button6.Location = new System.Drawing.Point(179, 89);
+            this._button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this._button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this._button6.Location = new System.Drawing.Point(189, 95);
             this._button6.Name = "_button6";
             this._button6.Size = new System.Drawing.Size(70, 65);
             this._button6.TabIndex = 5;
@@ -128,10 +126,9 @@ namespace TicTacToe
             // _button7
             // 
             this._button7.FlatAppearance.BorderSize = 0;
-            this._button7.FlatStyle = FlatStyle.Flat;
-            this._button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this._button7.Location = new System.Drawing.Point(37, 155);
+            this._button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this._button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this._button7.Location = new System.Drawing.Point(47, 161);
             this._button7.Name = "_button7";
             this._button7.Size = new System.Drawing.Size(70, 66);
             this._button7.TabIndex = 6;
@@ -139,10 +136,9 @@ namespace TicTacToe
             // _button8
             // 
             this._button8.FlatAppearance.BorderSize = 0;
-            this._button8.FlatStyle = FlatStyle.Flat;
-            this._button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this._button8.Location = new System.Drawing.Point(108, 155);
+            this._button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this._button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this._button8.Location = new System.Drawing.Point(118, 161);
             this._button8.Name = "_button8";
             this._button8.Size = new System.Drawing.Size(70, 66);
             this._button8.TabIndex = 7;
@@ -150,17 +146,16 @@ namespace TicTacToe
             // _button9
             // 
             this._button9.FlatAppearance.BorderSize = 0;
-            this._button9.FlatStyle = FlatStyle.Flat;
-            this._button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this._button9.Location = new System.Drawing.Point(179, 155);
+            this._button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this._button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this._button9.Location = new System.Drawing.Point(189, 161);
             this._button9.Name = "_button9";
             this._button9.Size = new System.Drawing.Size(70, 66);
             this._button9.TabIndex = 8;
             // 
             // _playButton
             // 
-            this._playButton.Location = new System.Drawing.Point(92, 237);
+            this._playButton.Location = new System.Drawing.Point(102, 243);
             this._playButton.Name = "_playButton";
             this._playButton.Size = new System.Drawing.Size(105, 30);
             this._playButton.TabIndex = 9;
@@ -169,9 +164,8 @@ namespace TicTacToe
             // 
             // eventShow
             // 
-            this.eventShow.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular,
-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
-            this.eventShow.Location = new System.Drawing.Point(37, 279);
+            this.eventShow.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.eventShow.Location = new System.Drawing.Point(47, 285);
             this.eventShow.Name = "eventShow";
             this.eventShow.Size = new System.Drawing.Size(212, 36);
             this.eventShow.TabIndex = 10;
@@ -180,7 +174,7 @@ namespace TicTacToe
             // Form1
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(7, 17);
-            this.ClientSize = new System.Drawing.Size(282, 333);
+            this.ClientSize = new System.Drawing.Size(302, 343);
             this.Controls.Add(this.eventShow);
             this.Controls.Add(this._playButton);
             this.Controls.Add(this._button9);
@@ -192,15 +186,15 @@ namespace TicTacToe
             this.Controls.Add(this._button3);
             this.Controls.Add(this._button2);
             this.Controls.Add(this._button1);
-            this.MaximumSize = new System.Drawing.Size(300, 380);
-            this.MinimumSize = new System.Drawing.Size(286, 360);
+            this.MaximumSize = new System.Drawing.Size(320, 390);
+            this.MinimumSize = new System.Drawing.Size(320, 390);
             this.Name = "Form1";
             this.Text = "Tic Tac Toe";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
         }
 
-        private Label eventShow;
+        private System.Windows.Forms.Label eventShow;
         
         #endregion
         
